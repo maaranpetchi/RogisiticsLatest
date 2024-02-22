@@ -34,10 +34,54 @@
 }
 
 .navbarImage {
-    height: 432px;
-    background: url(../../../../assets/bg-image.jpg);
+    height: 566px;
+    background: url(../../../../assets/trendyNav.png);
     background-size: cover;
+    position: relative;
+
 }
+
+.downloadButtonimages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .downloadButton {
+    width: 92px;
+    height: 35px;
+  }
+  .download-container {
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+.downloadDetails{
+    color: white;
+    font-size: small;
+    font-style: italic;}
+
+nav {
+    position: relative;
+}
+
+.headFont {
+    color: white;
+    position: absolute;
+    font-weight: 600;
+    top: 163px;
+    left: 114px;
+}
+
+.headFontbelow {
+    color: white;
+    position: absolute;
+    top: 212px;
+    left: 140px;
+}
+
+
 
 //////Navbar Ended//////
 
@@ -157,7 +201,9 @@
 }
 
 .profile-name {
-    font-size: 14px;
+    font-weight: 600;
+    font-size: larger;
+    color: rgba(249, 109, 60, 0.8);
 }
 
 //////Profile Card Ended////
@@ -252,6 +298,7 @@ button.submitButton {
     background: rgba(249, 109, 60, 0.8);
     text-align: center;
     color: white;
+    padding:12px
 }
 
 //////fourth section Ended/////
@@ -260,7 +307,7 @@ button.submitButton {
     justify-content: center;
 }
 
-.footerImages{
+.footerImages {
     height: 38px;
 
 }
