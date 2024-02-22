@@ -1,0 +1,220 @@
+//////Navbar Started//////
+
+.RowgisticLogo {
+    height: 71PX;
+    border-radius: 13px;
+}
+#navFont {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    font: bold;
+}
+.bg-light {
+    --bs-bg-opacity: 0.1;
+    background-color: transparent !important;
+}
+
+.navbarImage {
+    height: 432px;
+    background: url(../../../../assets/bg-image.jpg);
+    background-size: cover;
+}
+//////Navbar Ended//////
+
+
+
+
+////First Section started/////
+.firstSection {
+    // height: 391px;
+    background: #87ceeb54;
+}
+
+.about-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-team h1 {
+    font-size: 24px; /* Adjust font size as needed */
+    text-decoration: none; /* Remove default underline */
+    position: relative;
+  }
+  
+  .about-team h1::after {
+    content: "";
+    display: block;
+    width: 40%; /* Adjust underline length as needed */
+    height: 4px; /* Adjust underline thickness as needed */
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: -6px; /* Adjust underline position as needed */
+    left: 50px;
+  }
+  
+  .about-team h1 span {
+    position: relative;
+    z-index: 1; /* Keep text on top of the underline */
+  }
+  
+  .about-team h1 span.underline {
+    text-decoration: line-through;
+    text-decoration-color: transparent; /* Hide default underline */
+  }
+  
+.aboutTeamTitle{
+    color: #ff4500b3
+}
+.emptyClass {
+    height: 35px;
+}
+
+
+//////Profile Card started////
+.profile-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .profile-card {
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 193PX;
+    height: 206px;
+    border-radius: 50%;
+    background:url(../../../../assets/Morten.jpeg);
+    background-size: cover;
+    background-repeat: round;
+    object-fit: revert;
+    margin: 0 auto 10px;
+  }
+  .profile-pic1 {
+    width: 193PX;
+    height: 206px;
+    border-radius: 50%;
+    background:url(../../../../assets/Max.jpeg);
+    background-size: cover;
+    background-repeat: round;
+    object-fit: revert;
+    margin: 0 auto 10px;
+  }
+  .profile-pic2 {
+    width: 193PX;
+    height: 206px;
+    border-radius: 50%;
+    background:url(../../../../assets/JR7_0708.jpg);
+    background-size: cover;
+    background-repeat: round;
+    object-fit: revert;
+    margin: 0 auto 10px;
+  }
+  .profile-pic3 {
+    width: 193PX;
+    height: 206px;
+    border-radius: 50%;
+    background:url(../../../../assets/roeland-profile.jpeg);
+    background-size: cover;
+    background-repeat: round;
+    object-fit: revert;
+    margin: 0 auto 10px;
+  }
+  
+  .profile-name {
+    font-size: 14px;
+  }
+//////Profile Card Ended////
+
+//////First section Ended////
+
+
+/////////////////////////////////////Second Section Started//////////////////////////////
+.secondSection {
+    // height: 538px;
+    background: orange;
+}
+.align{
+    text-align: center;
+    color: white;
+}
+  
+.card-pic {
+    width: 127PX;
+    height: 113px;
+    border-radius: 50%;
+    background:url(../../../../assets/search_button-removebg-preview.png);
+    background-size: cover;
+    background-repeat: round;
+    object-fit: revert;
+    margin: 0 auto 10px;
+  }
+  .card-pic1 {
+    width: 127PX;
+    height: 113px;
+    border-radius: 50%;
+    background:url(../../../../assets/share-removebg-preview.png);
+    background-size: cover;
+    background-repeat: round;
+    object-fit: revert;
+    margin: 0 auto 10px;
+  }
+  .card-pic2 {
+    width: 127PX;
+    height: 113px;
+    border-radius: 50%;
+    background:url(../../../../assets/link-removebg-preview.png);
+    background-size: cover;
+    background-repeat: round;
+    object-fit: revert;
+    margin: 0 auto 10px;
+  }
+  .card-pic3 {
+    width: 127PX;
+    height: 113px;
+    border-radius: 50%;
+    background:url(../../../../assets/Amount-removebg-preview.png);
+    background-size: cover;
+    background-repeat: round;
+    object-fit: revert;
+    margin: 0 auto 10px;
+  }
+  #rowingCommunityFonts{
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+/////////////////////////////////////Second Section Ended//////////////////////////////
+
+
+///////////////////Third section started////////////
+#contact {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+button.submitButton {
+    background: #f8aa17;
+    color: white;
+    border: none;
+    border-radius: 1px;
+}
+///////////////////Third section Ended////////////
+
+//////fourth section started/////
+.viewMap {
+    background: orange;
+    text-align: center;
+    color: white;
+}
+//////fourth section Ended/////
+.footer {
+    display: flex;
+    justify-content: center;
+}
