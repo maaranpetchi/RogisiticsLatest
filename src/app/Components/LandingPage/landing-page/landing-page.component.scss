@@ -4,18 +4,22 @@
     height: 71PX;
     border-radius: 13px;
 }
-.navbar-toggler-icon{
-    filter:invert(1);
+
+.navbar-toggler-icon {
+    filter: invert(1);
 }
-.headFont{
+
+.headFont {
     color: white;
 }
+
 #navFont {
     color: white;
     font-size: larger;
     font-weight: bolder;
-    font: bold;
+    cursor: pointer;
 }
+
 .bg-light {
     --bs-bg-opacity: 0.1;
     background-color: transparent !important;
@@ -26,6 +30,7 @@
     background: url(../../../../assets/bg-image.jpg);
     background-size: cover;
 }
+
 //////Navbar Ended//////
 
 
@@ -39,38 +44,46 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .about-team h1 {
-    font-size: 24px; /* Adjust font size as needed */
-    text-decoration: none; /* Remove default underline */
+}
+
+.about-team h1 {
+    font-size: 24px;
+    /* Adjust font size as needed */
+    text-decoration: none;
+    /* Remove default underline */
     position: relative;
-  }
-  
-  .about-team h1::after {
+}
+
+.about-team h1::after {
     content: "";
     display: block;
-    width: 40%; /* Adjust underline length as needed */
-    height: 4px; /* Adjust underline thickness as needed */
+    width: 40%;
+    /* Adjust underline length as needed */
+    height: 4px;
+    /* Adjust underline thickness as needed */
     background-color: rgb(0, 0, 0);
     position: absolute;
-    bottom: -6px; /* Adjust underline position as needed */
+    bottom: -6px;
+    /* Adjust underline position as needed */
     left: 50px;
-  }
-  
-  .about-team h1 span {
+}
+
+.about-team h1 span {
     position: relative;
-    z-index: 1; /* Keep text on top of the underline */
-  }
-  
-  .about-team h1 span.underline {
+    z-index: 1;
+    /* Keep text on top of the underline */
+}
+
+.about-team h1 span.underline {
     text-decoration: line-through;
-    text-decoration-color: transparent; /* Hide default underline */
-  }
-  
-.aboutTeamTitle{
+    text-decoration-color: transparent;
+    /* Hide default underline */
+}
+
+.aboutTeamTitle {
     color: rgba(249, 109, 60, 0.8)
 }
+
 .emptyClass {
     height: 35px;
 }
@@ -81,60 +94,64 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-  }
-  
-  .profile-card {
+}
+
+.profile-card {
     text-align: center;
-  }
-  
-  .profile-pic {
+}
+
+.profile-pic {
     width: 193PX;
     border: 2px solid rgba(249, 109, 60, 0.8);
     height: 206px;
     border-radius: 50%;
-    background:url(../../../../assets/Morten.jpeg);
+    background: url(../../../../assets/Morten.jpeg);
     background-size: cover;
     background-repeat: round;
     object-fit: revert;
     margin: 0 auto 10px;
-  }
-  .profile-pic1 {
+}
+
+.profile-pic1 {
     width: 193PX;
     height: 206px;
     border: 2px solid rgba(249, 109, 60, 0.8);
     border-radius: 50%;
-    background:url(../../../../assets/Max.jpeg);
+    background: url(../../../../assets/Max.jpeg);
     background-size: cover;
     background-repeat: round;
     object-fit: revert;
     margin: 0 auto 10px;
-  }
-  .profile-pic2 {
+}
+
+.profile-pic2 {
     width: 193PX;
     height: 206px;
     border: 2px solid rgba(249, 109, 60, 0.8);
     border-radius: 50%;
-    background:url(../../../../assets/JR7_0708.jpg);
+    background: url(../../../../assets/JR7_0708.jpg);
     background-size: cover;
     background-repeat: round;
     object-fit: revert;
     margin: 0 auto 10px;
-  }
-  .profile-pic3 {
+}
+
+.profile-pic3 {
     width: 193PX;
     height: 206px;
     border: 2px solid rgba(249, 109, 60, 0.8);
     border-radius: 50%;
-    background:url(../../../../assets/roeland-profile.jpeg);
+    background: url(../../../../assets/roeland-profile.jpeg);
     background-size: cover;
     background-repeat: round;
     object-fit: revert;
     margin: 0 auto 10px;
-  }
-  
-  .profile-name {
+}
+
+.profile-name {
     font-size: 14px;
-  }
+}
+
 //////Profile Card Ended////
 
 //////First section Ended////
@@ -145,57 +162,62 @@
     // height: 538px;
     background: rgba(249, 109, 60, 0.8);
 }
-.align{
+
+.align {
     text-align: center;
     color: white;
 }
-  
+
 .card-pic {
     width: 127PX;
     height: 113px;
     border-radius: 50%;
-    background:url(../../../../assets/search_button-removebg-preview.png);
+    background: url(../../../../assets/search_button-removebg-preview.png);
     background-size: cover;
     background-repeat: round;
     object-fit: revert;
     margin: 0 auto 10px;
-  }
-  .card-pic1 {
+}
+
+.card-pic1 {
     width: 127PX;
     height: 113px;
     border-radius: 50%;
-    background:url(../../../../assets/share-removebg-preview.png);
+    background: url(../../../../assets/share-removebg-preview.png);
     background-size: cover;
     background-repeat: round;
     object-fit: revert;
     margin: 0 auto 10px;
-  }
-  .card-pic2 {
+}
+
+.card-pic2 {
     width: 127PX;
     height: 113px;
     border-radius: 50%;
-    background:url(../../../../assets/link-removebg-preview.png);
+    background: url(../../../../assets/link-removebg-preview.png);
     background-size: cover;
     background-repeat: round;
     object-fit: revert;
     margin: 0 auto 10px;
-  }
-  .card-pic3 {
+}
+
+.card-pic3 {
     width: 127PX;
     height: 113px;
     border-radius: 50%;
-    background:url(../../../../assets/Amount-removebg-preview.png);
+    background: url(../../../../assets/Amount-removebg-preview.png);
     background-size: cover;
     background-repeat: round;
     object-fit: revert;
     margin: 0 auto 10px;
-  }
-  #rowingCommunityFonts{
+}
+
+#rowingCommunityFonts {
     color: white;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
-  }
-  
+}
+
 /////////////////////////////////////Second Section Ended//////////////////////////////
 
 
@@ -214,6 +236,7 @@ button.submitButton {
     border-radius: 9px;
     padding: 8px;
 }
+
 ///////////////////Third section Ended////////////
 
 //////fourth section started/////
@@ -222,6 +245,7 @@ button.submitButton {
     text-align: center;
     color: white;
 }
+
 //////fourth section Ended/////
 .footer {
     display: flex;
