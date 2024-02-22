@@ -1,3 +1,64 @@
+///Toggle///
+/* Navbar Collapse Transition */
+.navbar-collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  /* Navbar Collapse Show */
+  .navbar-collapse.show {
+    max-height: 500px; /* Set your desired max height */
+    transition: max-height 0.3s ease-in;
+  }
+  
+  /* Navbar Toggler Icon Animation */
+  .navbar-toggler-icon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Navbar Toggler Icon Animation when collapsed */
+  .navbar-toggler.collapsed .navbar-toggler-icon {
+    transform: rotate(0deg);
+  }
+  
+  /* Navbar Toggler Icon Animation when expanded */
+  .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    transform: rotate(90deg);
+  }
+  /* Navbar Toggle Button */
+.navbar-toggler {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-toggler.collapsed {
+    transform: rotate(0deg);
+  }
+  
+  .navbar-toggler:not(.collapsed) {
+    transform: rotate(90deg);
+  }
+  
+  /* Navbar Collapse */
+  .collapse.navbar-collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .collapse.navbar-collapse.show {
+    max-height: 500px; /* Set to the desired max-height */
+  }
+  
+
+
+///Toggle///
+
+
+
 //////Navbar Started//////
 
 .RowgisticLogo {
