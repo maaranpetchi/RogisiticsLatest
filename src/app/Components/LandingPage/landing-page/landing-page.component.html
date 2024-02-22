@@ -18,20 +18,25 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="../../../../assets/rowgistic_logo.png" alt="RowgisticLogo"
               class="RowgisticLogo" srcset=""></a>
-          <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+          <button class="navbar-toggler" type="button" (click)="toggleNavbar()"
+            [attr.aria-expanded]="!isNavbarCollapsed" [ngClass]="{'collapsed': isNavbarCollapsed}">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" [ngClass]="{'show': isNavbarCollapsed}" id="navbarNav">
+          <div class="collapse navbar-collapse" [ngClass]="{'show': !isNavbarCollapsed}" id="navbarNav">
+
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" id="navFont" (click)="scrollToSection('firstSection')">ABOUT US</a>
+                <a class="nav-link" aria-current="page" id="navFont" (click)="scrollToSection('firstSection')">ABOUT
+                  US</a>
 
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" id="navFont" (click)="scrollToSection('secondSection')">WHAT WE DO</a>
+                <a class="nav-link" aria-current="page" id="navFont" (click)="scrollToSection('secondSection')">WHAT WE
+                  DO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page"  id="navFont" (click)="scrollToSection('thirdSection')">CONTACT</a>
+                <a class="nav-link" aria-current="page" id="navFont"
+                  (click)="scrollToSection('thirdSection')">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -147,53 +152,54 @@
     </div>
 
     <div class="container">
-    <form>
-      <div class="row">
-        <label for="fname" class="col-sm-1  
+      <form>
+        <div class="row">
+          <label for="fname" class="col-sm-1  
           col-form-label">Your Name</label>
-        <div class="col-sm">
-          <input type="text" class="form-control" id="fname" placeholder="Name">
-        </div>
-        <label for="fname" class="col-sm-1  
+          <div class="col-sm">
+            <input type="text" class="form-control" id="fname" placeholder="Name">
+          </div>
+          <label for="fname" class="col-sm-1  
           col-form-label">Email Address</label>
-        <div class="col-sm">
-          <input type="email" class="form-control" id="email" placeholder="Email Address">
+          <div class="col-sm">
+            <input type="email" class="form-control" id="email" placeholder="Email Address">
+          </div>
         </div>
-      </div>
-      <br>
-      <div class="row">
-        <label for="fname" class="col-sm-1  
+        <br>
+        <div class="row">
+          <label for="fname" class="col-sm-1  
           col-form-label">Company</label>
-        <div class="col-sm">
-          <input type="text" class="form-control" id="company" placeholder="company">
-        </div>
-        <label for="fname" class="col-sm-1  
+          <div class="col-sm">
+            <input type="text" class="form-control" id="company" placeholder="company">
+          </div>
+          <label for="fname" class="col-sm-1  
           col-form-label">Website</label>
-        <div class="col-sm">
-          <input type="text" class="form-control" id="website" placeholder="website">
+          <div class="col-sm">
+            <input type="text" class="form-control" id="website" placeholder="website">
+          </div>
         </div>
-      </div>
-<br>
-      <div class="row">
-        <label for="floatingTextarea2" class="col-sm-1
+        <br>
+        <div class="row">
+          <label for="floatingTextarea2" class="col-sm-1
         col-form-label">Messages</label>
-        <div class="col-9">
-          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <div class="col-9">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 100px"></textarea>
+          </div>
         </div>
-      </div>
-      <br>
-      <div class="row">
-        <label for="floatingTextarea2" class="col-sm-1
+        <br>
+        <div class="row">
+          <label for="floatingTextarea2" class="col-sm-1
         col-form-label"> </label>
-        <div class="col-9">
-          <button type="button" class="submitButton">Submit</button>
+          <div class="col-9">
+            <button type="button" class="submitButton">Submit</button>
 
+          </div>
         </div>
-      </div>
 
-   
-    </form>
-  </div>
+
+      </form>
+    </div>
   </div>
 
   <div class="emptyClass"></div>
@@ -203,7 +209,7 @@
     </div>
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.3329058186255!2d144.95973637463905!3d-37.80567063357346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato%20Pty%20Ltd!5e0!3m2!1sen!2sin!4v1708594861480!5m2!1sen!2sin"
-      width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+       style="border:0;" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
   <div class="footer">
