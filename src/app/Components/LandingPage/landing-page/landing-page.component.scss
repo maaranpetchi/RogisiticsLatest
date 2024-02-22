@@ -4,6 +4,12 @@
     height: 71PX;
     border-radius: 13px;
 }
+.navbar-toggler-icon{
+    filter:invert(1);
+}
+.headFont{
+    color: white;
+}
 #navFont {
     color: white;
     font-size: larger;
@@ -26,7 +32,7 @@
 ////First Section started/////
 .firstSection {
     // height: 391px;
-    background: #87ceeb54;
+    background: white;
 }
 
 .about-team {
@@ -63,7 +69,7 @@
   }
   
 .aboutTeamTitle{
-    color: #ff4500b3
+    color: rgba(249, 109, 60, 0.8)
 }
 .emptyClass {
     height: 35px;
@@ -83,6 +89,7 @@
   
   .profile-pic {
     width: 193PX;
+    border: 2px solid rgba(249, 109, 60, 0.8);
     height: 206px;
     border-radius: 50%;
     background:url(../../../../assets/Morten.jpeg);
@@ -94,6 +101,7 @@
   .profile-pic1 {
     width: 193PX;
     height: 206px;
+    border: 2px solid rgba(249, 109, 60, 0.8);
     border-radius: 50%;
     background:url(../../../../assets/Max.jpeg);
     background-size: cover;
@@ -104,6 +112,7 @@
   .profile-pic2 {
     width: 193PX;
     height: 206px;
+    border: 2px solid rgba(249, 109, 60, 0.8);
     border-radius: 50%;
     background:url(../../../../assets/JR7_0708.jpg);
     background-size: cover;
@@ -114,6 +123,7 @@
   .profile-pic3 {
     width: 193PX;
     height: 206px;
+    border: 2px solid rgba(249, 109, 60, 0.8);
     border-radius: 50%;
     background:url(../../../../assets/roeland-profile.jpeg);
     background-size: cover;
@@ -133,7 +143,7 @@
 /////////////////////////////////////Second Section Started//////////////////////////////
 .secondSection {
     // height: 538px;
-    background: orange;
+    background: rgba(249, 109, 60, 0.8);
 }
 .align{
     text-align: center;
@@ -198,16 +208,17 @@
 }
 
 button.submitButton {
-    background: #f8aa17;
+    background: rgba(249, 109, 60, 0.8);
     color: white;
     border: none;
-    border-radius: 1px;
+    border-radius: 9px;
+    padding: 8px;
 }
 ///////////////////Third section Ended////////////
 
 //////fourth section started/////
 .viewMap {
-    background: orange;
+    background: rgba(249, 109, 60, 0.8);
     text-align: center;
     color: white;
 }
