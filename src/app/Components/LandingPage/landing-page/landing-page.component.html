@@ -166,54 +166,45 @@
     </div>
 
     <div class="container">
-      <form>
+      <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
         <div class="row">
-          <label for="fname" class="col-sm-1  
-          col-form-label">Your Name</label>
+          <label for="fname" class="col-sm-1 col-form-label">Your Name</label>
           <div class="col-sm">
-            <input type="text" class="form-control" id="fname" placeholder="Name">
+            <input type="text" class="form-control" id="fname" placeholder="Name" name="name" ngModel>
           </div>
-          <label for="fname" class="col-sm-1  
-          col-form-label">Email Address</label>
+          <label for="email" class="col-sm-1 col-form-label">Email Address</label>
           <div class="col-sm">
-            <input type="email" class="form-control" id="email" placeholder="Email Address">
+            <input type="email" class="form-control" id="email" placeholder="Email Address" name="email" ngModel>
           </div>
         </div>
         <br>
         <div class="row">
-          <label for="fname" class="col-sm-1  
-          col-form-label">Company</label>
+          <label for="company" class="col-sm-1 col-form-label">Company</label>
           <div class="col-sm">
-            <input type="text" class="form-control" id="company" placeholder="company">
+            <input type="text" class="form-control" id="company" placeholder="Company" name="company" ngModel>
           </div>
-          <label for="fname" class="col-sm-1  
-          col-form-label">Website</label>
+          <label for="website" class="col-sm-1 col-form-label">Website</label>
           <div class="col-sm">
-            <input type="text" class="form-control" id="website" placeholder="website">
+            <input type="text" class="form-control" id="website" placeholder="Website" name="website" ngModel>
           </div>
         </div>
         <br>
         <div class="row">
-          <label for="floatingTextarea2" class="col-sm-1
-        col-form-label">Messages</label>
+          <label for="message" class="col-sm-1 col-form-label">Messages</label>
           <div class="col-9">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-              style="height: 100px"></textarea>
+            <textarea class="form-control" placeholder="Leave a comment here" id="message" style="height: 100px" name="message" ngModel></textarea>
           </div>
         </div>
         <br>
         <div class="row">
-          <label for="floatingTextarea2" class="col-sm-1
-        col-form-label"> </label>
+          <div class="col-sm-1"></div>
           <div class="col-9">
-            <button type="button" class="submitButton">Submit</button>
-
+            <button type="submit" class="submitButton">Submit</button>
           </div>
         </div>
-
-
       </form>
     </div>
+    
 
   </div>
 
@@ -242,7 +233,6 @@
     <div class="div3"><img class="footerImages" src="../../../../assets/googleicon.png" alt="" srcset=""></div>
     <div class="div4"><img class="footerImages" src="../../../../assets/pintresticon.png" alt="" srcset=""></div>
   </div>
-
 
 </body>
 

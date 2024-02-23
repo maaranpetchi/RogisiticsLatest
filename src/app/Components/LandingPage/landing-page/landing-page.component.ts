@@ -1,4 +1,5 @@
-import { Component, ElementRef } from '@angular/core';
+import { Component, ElementRef, Input } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-landing-page',
@@ -21,4 +22,14 @@ export class LandingPageComponent {
       element.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
     }
   }
+
+  onSubmit(form: NgForm) {
+    if (form.valid) {
+      console.log('Form Submitted!', form.value);
+      console.log('Form Submitted!', form.value.name);
+      form.resetForm();
+
+    }
+  }
+
 }

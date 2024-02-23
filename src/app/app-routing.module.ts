@@ -4,6 +4,7 @@ import { LandingPageComponent } from './Components/LandingPage/landing-page/land
 
 const routes: Routes = [
   { path: 'Rowgistic', component: LandingPageComponent },
+  { path: 'TermsAndCondition', component: LandingPageComponent },
   { path: '',   redirectTo: '/Rowgistic', pathMatch: 'full' }, // 
 ];
 
