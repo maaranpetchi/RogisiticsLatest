@@ -1,5 +1,6 @@
 import { Component, ElementRef, Input } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-landing-page',
@@ -8,7 +9,7 @@ import { NgForm } from '@angular/forms';
 })
 export class LandingPageComponent {
 
-  constructor(private elRef: ElementRef) {}
+  constructor(private elRef: ElementRef,private route:Router) { }
 
   isNavbarCollapsed = true;
 
@@ -32,4 +33,8 @@ export class LandingPageComponent {
     }
   }
 
+  navigatetoTerms() {
+    const url = '/Rowgistic/TermsAndCondition';
+    window.open(this.route.serializeUrl(this.route.createUrlTree([url])), '_blank');
+  }
 }

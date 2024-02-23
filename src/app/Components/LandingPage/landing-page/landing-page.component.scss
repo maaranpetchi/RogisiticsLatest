@@ -222,6 +222,8 @@ nav {
     color: white;
 }
 
+
+
 .card-pic {
     width: 127PX;
     height: 113px;
@@ -317,4 +319,9 @@ button.submitButton {
     display: flex;
     justify-content: center;
     /* width: 89vw; */
+}
+
+.copyRight {
+    background: rgba(249, 109, 60, 0.8);
+    padding: 10px;
 }
