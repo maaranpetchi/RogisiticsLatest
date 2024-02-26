@@ -179,18 +179,18 @@
         </div>
         <br>
         <div class="row">
-          <label for="company" class="col-sm-1 col-form-label">Company</label>
+          <label for="company" class="col-sm-2 col-form-label">Company</label>
           <div class="col-sm">
             <input type="text" class="form-control" id="company" placeholder="Company" name="company" ngModel>
           </div>
-          <label for="website" class="col-sm-1 col-form-label">Website</label>
+          <label for="website" class="col-sm-2 col-form-label">Website</label>
           <div class="col-sm">
             <input type="text" class="form-control" id="website" placeholder="Website" name="website" ngModel>
           </div>
         </div>
         <br>
         <div class="row">
-          <label for="message" class="col-sm-1 col-form-label">Messages</label>
+          <label for="message" class="col-sm-2 col-form-label">Messages</label>
           <div class="col-9">
             <textarea class="form-control" placeholder="Leave a comment here" id="message" style="height: 100px"
               name="message" ngModel></textarea>
@@ -229,15 +229,32 @@
   </div>
   <div class="emptyClass"></div>
   <div class="footer">
-    <div class="div1"><img class="footerImages" src="../../../../assets/faceBookIcon.png" alt="" srcset=""></div>
-    <div class="div2"><img class="footerImages" src="../../../../assets/TwitterIcons.png" alt="" srcset=""></div>
-    <div class="div3"><img class="footerImages" src="../../../../assets/googleicon.png" alt="" srcset=""></div>
-    <div class="div4"><img class="footerImages" src="../../../../assets/pintresticon.png" alt="" srcset=""></div>
+    <div class="div1">
+      <a href="https://www.facebook.com/">
+      <img class="footerImages" matTooltip="FaceBook"  src="../../../../assets/faceBookIcon.png" alt="" srcset=""></a>
+    </div>
+    <div class="div2">
+      <a href="https://twitter.com/?lang=en-in">
+      <img class="footerImages" src="../../../../assets/TwitterIcon.png" alt="" srcset="">
+      </a>
+    </div>
+    <div class="div3">
+      <a href="https://www.google.co.in/">
+      <img class="footerImages" src="../../../../assets/GoogleIcons.png" alt="" srcset="">
+      </a>
+    </div>
+    <div class="div4">
+      <a href="https://in.pinterest.com/?show_error=true">
+      <img class="footerImages" src="../../../../assets/pintresticon.png" alt="" srcset=""></a>
+    </div>
   </div>
   <div class="emptyClass"></div>
   <div class="copyRight">
-    <p class="align">Copyright 2024 Rowgisitics.All rights reserved | <a (click)="navigatetoTerms()"> Terms and Condition</a></p>
+    <p class="align">Copyright 2024 Rowgisitics.All rights reserved | <a (click)="navigatetoTerms()" style="color:rgb(31, 135, 175);cursor: pointer;"> Terms and Condition</a></p>
   </div>
 </body>
 
 </html>
+
+
+

@@ -45,22 +45,25 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-  }
+}
 
-  .downloadButton {
+.downloadButton {
     width: 92px;
     height: 35px;
-  }
-  .download-container {
+}
+
+.download-container {
     position: absolute;
     bottom: 4%;
     left: 50%;
     transform: translateX(-50%);
-  }
-.downloadDetails{
+}
+
+.downloadDetails {
     color: white;
     font-size: small;
-    font-style: italic;}
+    font-style: italic;
+}
 
 nav {
     position: relative;
@@ -300,12 +303,13 @@ button.submitButton {
     background: rgba(249, 109, 60, 0.8);
     text-align: center;
     color: white;
-    padding:12px
+    padding: 12px
 }
 
 //////fourth section Ended/////
 .footer {
     display: flex;
+    gap: 12px;
     justify-content: center;
 }
 
